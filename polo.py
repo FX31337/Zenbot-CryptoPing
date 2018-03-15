@@ -498,8 +498,8 @@ def dat(update):
 
             proc76.kill()
             proc76 = subprocess.call("./zenbot.sh sell --markup_sell_pct=0 poloniex.ZRX-BTC", shell=True)
-	except exception as e:
-	    print(e)
+    except exception as e:
+        print(e)
 data = "null"
 def load_settings(path='api/settings'):
     """Loads the user settings located under `api/`"""
