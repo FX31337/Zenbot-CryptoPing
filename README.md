@@ -20,7 +20,7 @@
 	# And finally, register at https://cryptoping.tech/ for updates or at cryptoalert: https://cryptoalert.wordpress.com/
 	# lastly, launch this python file in screen! screen -S poloniex -m python3 polo.py
 	# 
-	# Instany buy 0.25% loss, but instant. Maker mode non post-only.
+	# Instany buy 0.05% loss, but hopefully instant. Maker mode non post-only.
 	# Then wait for trailing stop sell and then program exit.
 	# ***Make sure to copy everything from this github repository over the zenbot files! All the repositories go into one single root folder!***
 	# 
