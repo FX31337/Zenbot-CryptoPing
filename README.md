@@ -19,10 +19,9 @@
 	# Lastly, input your telephone number in place of '+ENTERYOURPHONENUMBERFORTELEGRAMHERE' at the bottom of this file.
 	# And finally, register at https://cryptoping.tech/ for updates or at cryptoalert: https://cryptoalert.wordpress.com/
 	# lastly, launch this python file in screen! screen -S poloniex -m python3 polo.py
-	# You should see the output of the bot trying to buy and place instant sell orders at 2% above the current price. For finer tuning, adjust the order_adjust_time in conf.js and the cancel_after time periods.
 	# 
-	# 
-	# 
+	# Instany buy 0.25% loss, but instant. Maker mode non post-only.
+	# Then wait for trailing stop sell and then program exit.
 	# ***Make sure to copy everything from this github repository over the zenbot files! All the repositories go into one single root folder!***
 	# 
 	# 
