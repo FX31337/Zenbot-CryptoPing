@@ -24,7 +24,7 @@ module.exports = {
     }
     if (selll === 'False') {
     s.signal = 'buy'
-    sell = 'True'
+    selll = 'True'
     }
     if (selll === 'True') {
     s.signal = 'sell'
