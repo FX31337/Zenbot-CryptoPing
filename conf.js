@@ -142,7 +142,7 @@ c.markup_sell_pct = 0
 // become a market taker (high fees) or a market maker (low fees)
 c.order_type = 'maker'
 // when supported by the exchange, use post only type orders.
-c.post_only = true
+c.post_only = false
 // use separated fee currency such as binance's BNB.
 c.use_fee_asset = false
 
