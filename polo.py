@@ -503,35 +503,34 @@ def dat(update):
 data = "null"
 def load_settings(path='api/settings'):
     """Loads the user settings located under `api/`"""
-    result {}
+    result = {}
     with open(path, 'r', encoding='utf-8') as file:
         for line in file:
-            value_pair line.split('=')
-            left value_pair[0].strip()
-            right value_pair[1].strip()
+            value_pair = line.split('=')
+            left = value_pair[0].strip()
+            right = value_pair[1].strip()
             if right.isnumeric():
-                result[left] int(right)
+                result[left] = int(right)
             else:
-                result[left] right
+                result[left] = right
 
     return result
 
-settings load_settings()
+settings = load_settings()
 
 
-session_name "botbotbot"
-client TelegramClient(session_name,
+session_name = "botbotbot"
+client = TelegramClient(session_name,
                         int(settings['api_id']),
                         settings['api_hash'],
                         proxy=None,
                         update_workers=4,
                         spawn_read_thread=False)
 if True:
-    client.start(phone='+1YOURPHONENUMBER')
+    client.start(phone='+ENTERYOURPHONENUMBERFORTELEGRAMHERE')
 else:
     client.start()
 
 client.add_update_handler(dat)
 print('(Press Ctrl+C to stop this)')
 client.idle()
-
