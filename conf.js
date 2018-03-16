@@ -113,9 +113,9 @@ c.sell_stop_pct = 0
 // buy if price surges above this % of sold price (0 to disable)
 c.buy_stop_pct = 0
 // enable trailing sell stop when reaching this % profit (0 to disable)
-c.profit_stop_enable_pct = 0
+c.profit_stop_enable_pct = 0.5
 // maintain a trailing stop this % below the high-water mark of profit
-c.profit_stop_pct = 1
+c.profit_stop_pct = 0.5
 
 // Order execution rules:
 
@@ -149,7 +149,7 @@ c.use_fee_asset = false
 // Misc options:
 
 // default # days for backfill and sim commands
-c.days = 14
+c.days = 1
 // defaults to a high number of lookback periods
 c.keep_lookback_periods = 50000
 // ms to poll new trades at
