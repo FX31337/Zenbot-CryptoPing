@@ -5,7 +5,7 @@ var z = require('zero-fill')
 global.selll = 'True'
 
 module.exports = {
-  name: 'speed',
+  name: 'cryptoping',
   description: 'Trade when % change from last two 1m periods is higher than average.',
 
   getOptions: function () {
