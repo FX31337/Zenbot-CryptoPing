@@ -26,3 +26,7 @@
 	# 
 	# 
 	# 
+
+
+***MY BTC DONATION ADDRESS! :D Keep the development rolling!***
+```1Ppitsjie6EcRTpfJEXmEYzUaoJgBdvhAg```
