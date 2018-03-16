@@ -132,9 +132,9 @@ c.max_sell_loss_pct = 25
 // avoid buying at a loss above this pct set to 0 to ensure buying at a lower price...
 c.max_buy_loss_pct = 25
 // ms to poll order status
-c.order_poll_time = 5000
+c.order_poll_time = 30000
 // ms to wait for settlement (after an order cancel)
-c.wait_for_settlement = 15000
+c.wait_for_settlement = 60000
 // % to mark down buy price for orders
 c.markdown_buy_pct = -0.25
 // % to mark up sell price for orders
@@ -153,7 +153,7 @@ c.days = 14
 // defaults to a high number of lookback periods
 c.keep_lookback_periods = 50000
 // ms to poll new trades at
-c.poll_trades = 5000
+c.poll_trades = 30000
 // amount of currency to start simulations with
 c.currency_capital = 1000
 // amount of asset to start simulations with
