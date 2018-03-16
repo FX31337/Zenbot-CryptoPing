@@ -1,5 +1,6 @@
 ![header](header.jpg)
-        # THIS WAS DEVELOPED FOR POLO EXCHANGE BUT FEEL FREE TO EDIT THE PAIRS AT YOUR OWN RISK. I AM NOT LIABLE FOR ANY LOSSES USING THIS SOFTWARE.
+
+	# THIS WAS DEVELOPED FOR POLO EXCHANGE BUT FEEL FREE TO EDIT THE PAIRS AT YOUR OWN RISK. I AM NOT LIABLE FOR ANY LOSSES USING THIS SOFTWARE.
 	# Orders automatically get cancelled after 6 hours, then initiate a sell #2 at 0 markup in case the sell did not complete.
 	# A try statement was added here to keep the program from halting. We buy and undercut the market with negative markup on purchases to hopefully profit from hard pumps.
 	# This was updated 05:00 3/15/2018
