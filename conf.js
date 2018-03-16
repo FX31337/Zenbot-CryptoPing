@@ -18,7 +18,7 @@ c.mongo.replicaSet = null
 // default selector. only used if omitting [selector] argument from a command.
 c.selector = 'gdax.BTC-USD'
 // name of default trade strategy
-c.strategy = 'trend_ema'
+c.strategy = 'cryptoping'
 
 // Exchange API keys:
 
@@ -30,8 +30,8 @@ c.gdax.passphrase = 'YOUR-PASSPHRASE'
 
 // to enable Poloniex trading, enter your API credentials:
 c.poloniex = {}
-c.poloniex.key = 'HS3NFR2C-04ENCOQK-EIABO3RE-QSHCVJF3'
-c.poloniex.secret = '43c4c0faaa2badffd2aa5d89ebd3cf0c4278b663a00ef4c24bb6e3c9684395f65567066483a515130dbab7f055ba8ff5aaa96f1927b8ada2da1aac8763f32c95'
+c.poloniex.key = 'XXXXXXXXXXXX'
+c.poloniex.secret = 'XXXXXXXXXXXXXXXXXX'
 // please note: poloniex does not support market orders via the API
 
 // to enable Kraken trading, enter your API credentials:
