@@ -6,7 +6,7 @@ import time
 import subprocess
 import os, signal
 def dat(update):
-    data str(update)
+    data = str(update)
 	# Orders automatically get cancelled after a day per zenbot defaults. So, we cancel the proc process after a day, then initiate a sell #2 at 0 markup in case the sell did not complete after a day.
 	# A try statement was added here to keep the program from halting. We buy and undercut the market with negative markup on purchases to hopefully profit from hard pumps.
 	# This was updated 05:00 3/15/2018
