@@ -18,7 +18,7 @@ c.mongo.replicaSet = null
 // default selector. only used if omitting [selector] argument from a command.
 c.selector = 'gdax.BTC-USD'
 // name of default trade strategy
-c.strategy = 'trend_ema'
+c.strategy = 'cryptoping'
 
 // Exchange API keys:
 
@@ -30,8 +30,8 @@ c.gdax.passphrase = 'YOUR-PASSPHRASE'
 
 // to enable Poloniex trading, enter your API credentials:
 c.poloniex = {}
-c.poloniex.key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-c.poloniex.secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+c.poloniex.key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+c.poloniex.secret = 'XXXXXXXXXXXXXXXXXXXXXXXX'
 // please note: poloniex does not support market orders via the API
 
 // to enable Kraken trading, enter your API credentials:
@@ -126,7 +126,7 @@ c.buy_pct = 100
 // sell with this % of asset balance (WARNING : sim won't work properly if you set this value to 100)
 c.sell_pct = 100
 // ms to adjust non-filled order after
-c.order_adjust_time = 86400000
+c.order_adjust_time = 21600000
 // avoid selling at a loss below this pct set to 0 to ensure selling at a higher price...
 c.max_sell_loss_pct = 25
 // avoid buying at a loss above this pct set to 0 to ensure buying at a lower price...
@@ -136,7 +136,7 @@ c.order_poll_time = 5000
 // ms to wait for settlement (after an order cancel)
 c.wait_for_settlement = 15000
 // % to mark down buy price for orders
-c.markdown_buy_pct = 0
+c.markdown_buy_pct = -0.25
 // % to mark up sell price for orders
 c.markup_sell_pct = 0
 // become a market taker (high fees) or a market maker (low fees)
@@ -149,7 +149,7 @@ c.use_fee_asset = false
 // Misc options:
 
 // default # days for backfill and sim commands
-c.days = 1
+c.days = 14
 // defaults to a high number of lookback periods
 c.keep_lookback_periods = 50000
 // ms to poll new trades at
